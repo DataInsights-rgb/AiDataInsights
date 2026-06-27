@@ -1,0 +1,29 @@
+.recent-files-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  margin: 0 0 8px;
+}
+
+.recent-files-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 0.5px solid var(--border);
+}
+
+.recent-files-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 0.5px solid var(--border);
+  font-size: 14px;
+}
+
+.recent-files-name {
+  color: var(--text-h);
+}
+
+.recent-files-time {
+  color: var(--text);
+}

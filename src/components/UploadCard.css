@@ -1,0 +1,24 @@
+.upload-card {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 32px 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.upload-card:hover,
+.upload-card-dragging {
+  border-color: var(--accent-border);
+}
+
+.upload-card-title {
+  font-weight: 500;
+  color: var(--text-h);
+  margin-bottom: 4px;
+}
+
+.upload-card-hint {
+  font-size: 14px;
+  color: var(--text);
+}
