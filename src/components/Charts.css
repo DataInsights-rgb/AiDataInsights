@@ -1,0 +1,18 @@
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.chart-card {
+  background: var(--code-bg);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.chart-card-title {
+  color: var(--text-h);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}

@@ -4,6 +4,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 6px;
   padding-top: 16px;
   border-right: 0.5px solid var(--border);
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.sidebar-item:hover {
+  background: var(--code-bg);
+  color: var(--text-h);
+}
+
+.sidebar-item-active {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.sidebar-item-active:hover {
+  background: var(--accent-bg);
+  color: var(--accent);
 }
